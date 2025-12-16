@@ -8,6 +8,8 @@ It is structured as follows:
 Master_s_Thesis/  
 ├── ColabNotebooks                        # Contains Notebooks used to execute code on Google Colab  
 
+├── Jupyter_Notebooks                     # Contains Jupyter Notebooks for Data Cleaning, Summary Statistics and Research Question-specific analyses  
+
 ├── NLP_Analysis                          # Contains Functions used for natural language processing  
 │   ├── AggregateValence.py               # Aggregate Valence by Critics and Audiences  
 │   ├── AggregateEmbeddings.py            # Aggregate Critic and Audience Embeddings  
@@ -26,4 +28,16 @@ Master_s_Thesis/
 │   ├── prepare_actor_list.py             # Script used to prepare the actor list based on the two Datasets  
 │   ├── PreprocessMovieReviews.py         # Calls the function to mask actor names or movie titles and handles input/output data  
 │   ├── ReplaceActorNames.py  
-│   ├── ReplaceMovieTitles.py  
+│   └── ReplaceMovieTitles.py  
+  
+├── TopicModelling                       # Contains Functions for Topic Modelling and Topic Aggregation  
+  
+├── Translation                          # Contains Funtions for Language Detection and Translation  
+  
+├── Webscraping_RT_BoxOffice             # Contains Function to Scrape Box Office Revenues from Rotten Tomatoes and a Runner Script  
+  
+├── Webscraping_RT_XHR                   # Contains Code needed to Scrape Film Reviews from Rotten Tomatoes  
+│   ├── scrape_emsId.py                  # Script to scrape emsIds (Rotten Tomatoes internal movie identifier)  
+│   ├── XHR_BatchScrapingRT.py           # Function to handle batching of review scraping and saving of outputs, uses the following functions for parallelized web scraping  
+│   ├── XHR_ParalleliseScraping.py       # Called by previous function to parallelize the scraping process  
+│   ├── XHR_RTScraper.py                 # The function for the actual scraping process  
