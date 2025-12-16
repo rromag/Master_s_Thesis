@@ -6,7 +6,7 @@ This repository contains the code used in the data analysis process for the mast
 It is structured as follows:  
 
 Master_s_Thesis/  
-├-- ColabNotebooks                        # Contains Notebooks used to execute code on Google Colab  
+├── ColabNotebooks                        # Contains Notebooks used to execute code on Google Colab  
 
 ├── Jupyter_Notebooks                     # Contains Jupyter Notebooks for Data Cleaning, Summary Statistics and Research Question-specific analyses  
 
