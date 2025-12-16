@@ -6,7 +6,7 @@ This repository contains the code used in the data analysis process for the mast
 It is structured as follows:  
 
 Master_s_Thesis/  
-├── ColabNotebooks                        # Contains Notebooks used to execute code on Google Colab  
+├-- ColabNotebooks                        # Contains Notebooks used to execute code on Google Colab  
 
 ├── Jupyter_Notebooks                     # Contains Jupyter Notebooks for Data Cleaning, Summary Statistics and Research Question-specific analyses  
 
@@ -40,4 +40,4 @@ Master_s_Thesis/
 │   ├── scrape_emsId.py                  # Script to scrape emsIds (Rotten Tomatoes internal movie identifier)  
 │   ├── XHR_BatchScrapingRT.py           # Function to handle batching of review scraping and saving of outputs, uses the following functions for parallelized web scraping  
 │   ├── XHR_ParalleliseScraping.py       # Called by previous function to parallelize the scraping process  
-│   ├── XHR_RTScraper.py                 # The function for the actual scraping process  
+│   └── XHR_RTScraper.py                 # The function for the actual scraping process  
